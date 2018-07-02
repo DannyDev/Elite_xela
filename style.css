@@ -1,40 +1,50 @@
-    #logo {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    section {
-        background-color: antiquewhite;
-    }
-    
-    footer {
-        color: whitesmoke;
-        text-align: center;
-    }
-    
-    .navbar-wrapper {
-        position: relative;
-    }
-    
-    .carousel {
-        top: 0;
-    }
-    
-    .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-    }
-    
-    .carousel-inner {
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .lg-navbar {
-        position: absolute;
-        top: 0;
-        z-index: 10;
-        background-color: black;
-        width: 100%;
-    }
+@font-face {
+    font-family: "Fontfabric - UniNeueBold";
+    src: url("./assets/Uni.Neue/Fontfabric - UniNeueBold.otf");
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Fontfabric - UniNeueBold', Fallback, sans-serif;
+}
+
+section {
+    background-color: antiquewhite;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.navbar-wrapper {
+    position: relative;
+}
+
+.carousel {
+    top: 0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lg-navbar {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+    width: 100%;
+    font-family: 'Fontfabric - UniNeueBold', Fallback, sans-serif;
+}
