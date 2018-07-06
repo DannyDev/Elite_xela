@@ -13,7 +13,7 @@ h1 {
 }
 
 section {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 footer {
@@ -47,4 +47,51 @@ footer {
     background-color: black;
     width: 100%;
     font-family: 'Fontfabric - UniNeueBold', Fallback, sans-serif;
+}
+
+.no-gutter.row,
+.no-gutter.container,
+.no-gutter.container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-gutter>[class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    color: white;
+    letter-spacing: -1px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+.slideshow-caption {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    color: white;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
 }
